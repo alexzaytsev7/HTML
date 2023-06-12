@@ -1,0 +1,22 @@
+body {
+    background: url(https://abrakadabra.fun/uploads/posts/2021-12/1639964575_11-abrakadabra-fun-p-standartnie-foni-telegramma-11.jpg);
+}
+
+div {
+    background-color: rgb(242, 225, 203);
+    padding: 5px;
+    margin: 5px 10% 5px 10%;
+}
+
+nav {
+    margin: 5px;
+}
+
+.firstText {
+    color: darkblue;
+}
+
+.textImg {
+    float: left;
+    margin-right: 10px;
+}
