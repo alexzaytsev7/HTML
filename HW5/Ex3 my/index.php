@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Мой сайт</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav>
+                <a href="index.html">Main</a> 
+                <a href="storys.html">Storys</a> 
+            </nav>
+
+            <h1>Short story #1</h1>
+            <h2>Story about long it project, where were a lot of problems with customers and team used a special case</h2>
+        </header>
+        <main>
+
+            <hr>
+            <p class="firstText">
+                <img class="textImg" src="https://center-yf.ru/img/chto-takoe-it-proekt.jpg" alt="кот1" width="200">
+
+        <p class="firstText">
+            <p>
+                Once upon a time, there was an IT project that seemed never-ending. The project was to develop a new e-commerce website for a customer who had very high expectations. Despite the best efforts of the team, the project was plagued with problems; there were misunderstandings, unclear requirements, missed deadlines, and mismatches between the development team and the customer.
+
+</p><p>The team was in a precarious situation. They knew that if the project failed, it would have a significant impact on their company's reputation and their own careers. They knew they needed to find a way to fix the problems and deliver a quality product that met the customer's expectations. That's when they decided to use a special case.
+
+</p><p>The <i>special case</i> was a box that the team created. They put a lock on it, and only the project team had the key. The idea was that whenever there was a significant disagreement between the customer and the development team, they would write down their issues and put them in the box. At the end of each week, the team would open the box and review the issues.
+
+</p><p>It was a game-changer for the team. The special case acted as a mediator between the customer and the development team. Both parties could express their opinions, without fear of judgment, and trust that their issues would be addressed thoroughly. The team developed a better understanding of the customer's expectations, and the customer developed a better appreciation for the complexity of the development process.
+
+</p><p>With the special case, the project team started to move forward. They could better anticipate the customer's needs and deliver more effective solutions. The project team also used this method to keep communication streamlined, ensuring they were all on the same page.
+
+</p><p>During the next six months, the project team regularly used the special case to iron out their differences, identify and resolve issues, and ultimately create a website that both the development team and the customer were proud of.
+
+</p><p>This project proved that team collaboration and effective communication are critical to success in the IT industry. The team used a creative solution, such as the special case, to promote better communication and ultimately achieve their goals. Their positive attitude and innovative solution have endeared the project team to the company and the customer, and they now use the "special case" approach in other IT projects.
+            </p>
+            Отзывы:<br>
+            <div class="chat">
+                <h2>Чат</h2>
+                <input type="text", placeholder="Ваше имя", id="chat_name">
+                <input type="text" placeholder="Текст сообщения", id="text">
+                <button onclick="send()">Отправить</button><br>
+                <span id="messages"></span>
+            </div>
+        </main>
+        <hr>
+        <footer>
+            (c)2023
+        </footer>
+        <hr>
+    </div>
+   
+</html>
+    </div>
+</body>
